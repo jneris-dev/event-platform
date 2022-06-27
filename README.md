@@ -14,6 +14,7 @@ This project was developed using the following technologies:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [GraphQL](https://graphql.org/)
+- [GraphCMS](https://graphcms.com/)
 
 ## 📚 Additional libraries
 
@@ -51,6 +52,22 @@ $ npm run dev
 ```
 The app will be available for access on your browser at http://localhost:3000
 
+## 🔑 Environment Variables
+
+Create the .env.local file and enter your GraphCMS keys:
+```bash
+VITE_API_URL="Your Content API"
+VITE_API_ACCESS_TOKEN="Your Auth Tokens"
+```
+Add the variables in your project in vercel:
+```bash
+NAME:"VITE_API_URL"
+VALUE:"Your Content API"
+
+NAME:"VITE_API_ACCESS_TOKEN"
+VALUE:"Your Auth Tokens"
+```
+
 ## 💻 Project
 
 This is a project developed during the [Ignite Lab](https://lp.rocketseat.com.br/inscricao/ignite-lab), presented by [@Rocketseat](https://github.com/Rocketseat) during June 19-27, 2022.
@@ -63,10 +80,20 @@ You can view the project layout through the links below:
 
 Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
+## ☄ Next Level
+
+- [x] Opening image correction
+- [ ] Responsive
+- [ ] Check subscriber
+- [ ] Dark/Light theme
+- [ ] Accessibility
+- [ ] New keys for production and development
+- [ ] Platform only subscribers
+- [ ] Share button
+
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
-
 
 ---
 
